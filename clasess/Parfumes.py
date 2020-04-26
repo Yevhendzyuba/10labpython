@@ -26,9 +26,11 @@ class Parfumes:
 
     @classmethod
     def main(cls):
-        first_parfume = Parfumes(145, 567)
-        second_parfume = Parfumes(250, 1240, "casablanca", "so-so", "France", 2018)
-        third_parfume = Parfumes(345, 2560, "channel", "luxury", "Italy", 2020)
-        objects = [first_parfume, second_parfume, third_parfume]
+        1_parfume = Parfumes(145, 567)
+        2_parfume = Parfumes(250, 1240, "casablanca", "so-so", "France", 2018)
+        3_parfume = Parfumes(345, 2560, "channel", "luxury", "Italy", 2020)
+        objects = [1_parfume, 2_parfume, 3_parfume]
         for x in objects:
+            print(x)
+            print("hello world")
             print(x)
